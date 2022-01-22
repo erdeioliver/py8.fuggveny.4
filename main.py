@@ -13,7 +13,7 @@ def kerulet(a, b):
     if b != '':
         for i in b:
             elemzo +=1
-    if b == '':
+    elif b == '':
         a = 4*a
         return print(f"A négyzet kerülete: {a} cm")
     elif elemzo == 1:
